@@ -2,7 +2,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./factory.sol";
-import "https://github.com/dievardump/EIP2981-implementation/blob/main/contracts/ERC2981PerTokenRoyalties.sol";
+import "../contracts/ERC2981PerTokenRoyalties.sol";
 contract royalty is Ownable,ERC2981PerTokenRoyalties{
     MAS private nftAddress;
     struct Royalty_data {
