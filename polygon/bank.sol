@@ -4,7 +4,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
-import "./Mas_Royalty.sol";
+import "./MasRoyalty.sol";
 import "./factory.sol";
 import "./whiteLists.sol";
 contract Bank is Ownable,Pausable,ReentrancyGuard {
